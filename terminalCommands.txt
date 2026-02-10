@@ -1,6 +1,7 @@
 C:\Users\dapku\Desktop\Testing - absoliutus kelias
 . - dabartinės repozitorijos terminale žymėjimas
-.. - perėjimas į prieš tai esantį folderį(per vieną)
+.. - nurodo perėjimą į kitą folderį aukščiau(per vieną)
+cd - (change directory) direktorijos pakeitimas
 
 echo "# Testing" >> README.md        - sukuria failą pavadinimu README.md ir jame patalpina tekstą "# Testing"
 
