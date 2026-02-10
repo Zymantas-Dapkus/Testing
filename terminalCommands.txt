@@ -1,0 +1,12 @@
+C:\Users\dapku\Desktop\Testing - absoliutus kelias
+. - dabartinės repozitorijos terminale žymėjimas
+.. - perėjimas į prieš tai esantį folderį(per vieną)
+
+echo "# Testing" >> README.md        - sukuria failą pavadinimu README.md ir jame patalpina tekstą "# Testing"
+
+git init                             - inicijuoja repozitoriją
+git add .                            - nurodo kokius failus pridedame į repozitoriją
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Zymantas-Dapkus/Testing.git
+git push -u origin main
