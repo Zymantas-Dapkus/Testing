@@ -5,9 +5,17 @@ cd - (change directory) direktorijos pakeitimas
 
 echo "# Testing" >> README.md        - sukuria failą pavadinimu README.md ir jame patalpina tekstą "# Testing"
 
+Naujos repozitorijos sukūrimas per terminalą:
+
 git init                             - inicijuoja repozitoriją
 git add .                            - nurodo kokius failus pridedame į repozitoriją
 git commit -m "first commit"         - žinutės priskyrimas
 git branch -M main                   - atšakos priskyrimas
 git remote add origin (repozitorijos adresas) - Github repozitorijos susiejimas
 git push -u origin main              - inicijuoti commit
+
+Repozitorijos atnaujinimas per terminalą:
+
+git add .
+git commit -m "Pakeitimas"
+git push
